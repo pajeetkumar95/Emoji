@@ -6,7 +6,7 @@
 
 #wrappeer{
     height: 100vh;
-    background-color: #ff00c8;
+    background-color: #000;
 }
 
 .head{
@@ -16,7 +16,7 @@
     border-radius: 50%;
     position: relative;
     background-color: #00ffff;
-    animation: move 5s ease-in-out 1;   
+    animation:move 4s ease  1;   
 }
 
 .head .eyebrowleft{
@@ -104,6 +104,7 @@
     left: 9.5rem;
     animation: happy 2s 7s ease;
 }
+
 
 @keyframes move{
     0%{transform: rotate(0deg);top: 0;left: 0;}
